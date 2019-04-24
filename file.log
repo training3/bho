@@ -1,0 +1,30 @@
+INFO] Scanning for projects...
+[INFO]                                                                        
+[INFO] ------------------------------------------------------------------------
+[INFO] Building accountAggregator 4.09.1
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] --- build-helper-maven-plugin:3.0.0:parse-version (parse-version) @ accountAggregator ---
+[INFO]
+[INFO] --- jacoco-maven-plugin:0.7.5.201505241946:prepare-agent (default-prepare-agent) @ accountAggregator ---
+[INFO] argLine set to -javaagent:/var/lib/jenkins/.m2/repository/org/jacoco/org.jacoco.agent/0.7.5.201505241946/org.jacoco.agent-0.7.5.201505241946-runtime.jar=destfile=/var/lib/jenkins/jobs/test3/workspace/target/jacoco.exec,includes=**/util/**:**/service/**:**/profiler/**
+[INFO]
+[INFO] --- maven-resources-plugin:3.0.1:resources (default-resources) @ accountAggregator ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 6 resources
+[INFO] Copying 45 resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ accountAggregator ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 564 source files to /var/lib/jenkins/jobs/test3/workspace/target/classes
+[INFO] /var/lib/jenkins/jobs/test3/workspace/src/main/java/com/oranj/accounts/service/byallaccounts/Operation.java: Some input files use or override a deprecated API.
+[INFO] /var/lib/jenkins/jobs/test3/workspace/src/main/java/com/oranj/accounts/service/byallaccounts/Operation.java: Recompile with -Xlint:deprecation for details.
+[INFO] /var/lib/jenkins/jobs/test3/workspace/src/main/java/com/oranj/accounts/service/AccountUpdateService.java: Some input files use unchecked or unsafe operations.
+[INFO] /var/lib/jenkins/jobs/test3/workspace/src/main/java/com/oranj/accounts/service/AccountUpdateService.java: Recompile with -Xlint:unchecked for details.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 15.121s
+[INFO] Finished at: Wed Apr 24 03:09:39 UTC 2019
+[INFO] Final Memory: 49M/1016M
+[INFO] ------------------------------------------------------------------------
