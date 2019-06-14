@@ -1,4 +1,7 @@
-node('host'){
-    git 'https://github.com/SonarSource/sonar-scanning-examples.git'
-    sh 'cd sonarqube-scanner-maven; mvn clean install sonar:sonar'
-}
+pipeline{
+    agent any
+    stages{
+        stage('test'){
+            steps{
+            sh 'echo hellllllo'
+            }}}}
